@@ -36,17 +36,16 @@
                 <version>0.8.5</version>
                 <executions>
                     <execution>
-                        <id>prepare-agent-hjfgue</id>
+                        <id>prepare-agent-tyhnjfk123</id>
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
                     </execution>
                     <execution>
-                        <id>report-webasset</id>
+                        <id>report-fhgurkcvb123</id>
                         <phase>verify</phase>
                         <goals>
                             <goal>check</goal>
-                            <goal>report</goal>
                         </goals>
                         <configuration>
                             <rules>
