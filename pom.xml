@@ -42,6 +42,13 @@
                         </goals>
                     </execution>
                     <execution>
+                        <id>report-fhgurkcvb124</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                    <execution>
                         <id>report-fhgurkcvb123</id>
                         <phase>verify</phase>
                         <goals>
