@@ -20,9 +20,11 @@ public class RadioTest {
 
     @Test
     public void shouldOutRadioRange() {
-        Radio rad = new Radio();
 
-        rad.setCurrentStation(10);
+        int countStation = 11;
+        Radio rad = new Radio(countStation);
+
+        rad.setCurrentStation(countStation);
 
         int expected = 0;
         int actual = rad.getCurrentStation();
@@ -135,11 +137,11 @@ public class RadioTest {
     public void shouldIncreaseVolume2() {
         Radio rad = new Radio();
 
-        rad.setCurrentVolume(10);
+        rad.setCurrentVolume(100);
 
         rad.increaseVolume();
 
-        int expected = 10;
+        int expected = 100;
         int actual = rad.getCurrentVolume();
 
         assertEquals(expected, actual);
@@ -193,7 +195,7 @@ public class RadioTest {
     public void shouldsDownSetCurrentVolume2(){
         Radio rad = new Radio();
 
-        rad.setCurrentVolume(11);
+        rad.setCurrentVolume(101);
 
         int expected = 0;
         int actual = rad.getCurrentVolume();
